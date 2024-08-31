@@ -1,0 +1,502 @@
+[21:49:37] [main/INFO]: Loading Minecraft 1.19.4 with Fabric Loader 0.16.2
+[21:49:37] [main/WARN]: Warnings were found!
+ - ¡El mod 'BetterF3' (betterf3) 6.0.1 recomienda la versión 3.0.0 o posterior de modmenu, que no tienes!
+	 - Debería instalar la versión 3.0.0 o posterior de modmenu para una experiencia óptima.
+[21:49:37] [main/INFO]: Loading 60 mods:
+	- bedrockify 1.8.1+mc1.19.4
+	- betterf3 6.0.1
+	- cloth-config 10.1.117
+	   \-- cloth-basic-math 0.6.1
+	- fabric-api 0.87.2+1.19.4
+	   |-- fabric-api-base 0.4.28+737a6ee8f4
+	   |-- fabric-api-lookup-api-v1 1.6.29+504944c8f4
+	   |-- fabric-biome-api-v1 13.0.10+6b242079f4
+	   |-- fabric-block-api-v1 1.0.8+e022e5d1f4
+	   |-- fabric-blockrenderlayer-v1 1.1.38+10ce000ff4
+	   |-- fabric-client-tags-api-v1 1.1.1+0eee1254f4
+	   |-- fabric-command-api-v1 1.2.31+f71b366ff4
+	   |-- fabric-command-api-v2 2.2.10+10ce000ff4
+	   |-- fabric-commands-v0 0.2.48+df3654b3f4
+	   |-- fabric-containers-v0 0.1.59+df3654b3f4
+	   |-- fabric-content-registries-v0 3.5.14+10ce000ff4
+	   |-- fabric-convention-tags-v1 1.5.3+6d727b51f4
+	   |-- fabric-crash-report-info-v1 0.2.17+aeb40ebef4
+	   |-- fabric-data-generation-api-v1 11.5.2+26f09d40f4
+	   |-- fabric-dimensions-v1 2.1.50+44c9c860f4
+	   |-- fabric-entity-events-v1 1.5.17+10ce000ff4
+	   |-- fabric-events-interaction-v0 0.6.1+4b6b93f0f4
+	   |-- fabric-events-lifecycle-v0 0.2.56+df3654b3f4
+	   |-- fabric-game-rule-api-v1 1.0.36+3f657af2f4
+	   |-- fabric-item-api-v1 2.1.21+10ce000ff4
+	   |-- fabric-item-group-api-v1 3.0.10+8400c67ef4
+	   |-- fabric-key-binding-api-v1 1.0.35+504944c8f4
+	   |-- fabric-keybindings-v0 0.2.33+df3654b3f4
+	   |-- fabric-lifecycle-events-v1 2.2.19+10ce000ff4
+	   |-- fabric-loot-api-v2 1.1.32+10ce000ff4
+	   |-- fabric-loot-tables-v1 1.1.36+9e7660c6f4
+	   |-- fabric-message-api-v1 5.1.5+53c11dadf4
+	   |-- fabric-mining-level-api-v1 2.1.44+10ce000ff4
+	   |-- fabric-model-loading-api-v1 1.0.2+3a1ea2f1f4
+	   |-- fabric-models-v0 0.4.1+a0255436f4
+	   |-- fabric-networking-api-v1 1.3.6+ae9c4c6af4
+	   |-- fabric-networking-v0 0.3.46+df3654b3f4
+	   |-- fabric-object-builder-api-v1 7.1.1+d63b52eaf4
+	   |-- fabric-particles-v1 1.1.1+86d48884f4
+	   |-- fabric-recipe-api-v1 1.0.13+10ce000ff4
+	   |-- fabric-registry-sync-v0 2.3.2+95ae8716f4
+	   |-- fabric-renderer-api-v1 2.4.2+90110d8df4
+	   |-- fabric-renderer-indigo 1.4.2+90110d8df4
+	   |-- fabric-renderer-registries-v1 3.2.42+df3654b3f4
+	   |-- fabric-rendering-data-attachment-v1 0.3.32+10ce000ff4
+	   |-- fabric-rendering-fluids-v1 3.0.25+10ce000ff4
+	   |-- fabric-rendering-v0 1.1.45+df3654b3f4
+	   |-- fabric-rendering-v1 2.1.5+10ce000ff4
+	   |-- fabric-resource-conditions-api-v1 2.3.3+10ce000ff4
+	   |-- fabric-resource-loader-v0 0.11.7+8400c67ef4
+	   |-- fabric-screen-api-v1 1.0.49+10ce000ff4
+	   |-- fabric-screen-handler-api-v1 1.3.25+10ce000ff4
+	   |-- fabric-sound-api-v1 1.0.11+10ce000ff4
+	   |-- fabric-transfer-api-v1 3.3.1+602c17c7f4
+	   \-- fabric-transitive-access-wideners-v1 3.3.0+1b5f819af4
+	- fabricloader 0.16.2
+	   \-- mixinextras 0.4.1
+	- java 17
+	- minecraft 1.19.4
+	- worldedit 7.2.14+6360-094b734
+[21:49:43] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Usuario/AppData/Roaming/.minecraft/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[21:49:43] [main/INFO]: Compatibility level set to JAVA_16
+[21:49:43] [main/INFO]: Compatibility level set to JAVA_17
+[21:49:43] [main/WARN]: Error loading class: net/fabricmc/fabric/impl/client/indigo/renderer/render/AbstractQuadRenderer (java.lang.ClassNotFoundException: net/fabricmc/fabric/impl/client/indigo/renderer/render/AbstractQuadRenderer)
+[21:49:43] [main/WARN]: @Mixin target net.fabricmc.fabric.impl.client.indigo.renderer.render.AbstractQuadRenderer was not found bedrockify.mixins.json:client.features.bedrockShading.lightBlock.AbstractQuadRendererMixin from mod bedrockify
+[21:49:45] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[21:49:53] [Datafixer Bootstrap/INFO]: 180 Datafixer optimizations took 254 milliseconds
+[21:49:57] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:49:57] [Render thread/INFO]: Setting user: ZYoltyX
+[21:49:57] [Render thread/INFO]: Initializing BedrockIfy.
+[21:49:59] [Render thread/INFO]: Got request to register class com.sk89q.worldedit.fabric.FabricPlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@34d9d20b]
+[21:49:59] [Render thread/INFO]: WorldEdit for Fabric (version 7.2.14+6360-094b734) is loaded
+[21:49:59] [Render thread/INFO]: Initializing BedrockIfy Client.
+[21:49:59] [Render thread/INFO]: Initialized BedrockIfy Client
+[21:49:59] [Render thread/INFO]: [BetterF3] Loading...
+[21:49:59] [Render thread/INFO]: [BetterF3] All done!
+[21:49:59] [Render thread/INFO]: [Indigo] Registering Indigo renderer!
+[21:50:00] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[21:50:02] [Render thread/INFO]: Reloading ResourceManager: vanilla, fabric (bedrockify, betterf3, cloth-config, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-containers-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-crash-report-info-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-events-lifecycle-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-tables-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-models-v0, fabric-networking-api-v1, fabric-networking-v0, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, worldedit), file/Saturated-v3.2.zip, file/MainTexture
+[21:50:05] [Render thread/WARN]: Missing sound for event: minecraft:item.brush.brushing
+[21:50:05] [Render thread/WARN]: Missing sound for event: minecraft:item.brush.brush_sand_completed
+[21:50:05] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[21:50:05] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[21:50:05] [Render thread/WARN]: Missing sound for event: minecraft:music.overworld.cherry_grove
+[21:50:05] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Altavoces (Realtek High Definition Audio)
+[21:50:05] [Render thread/INFO]: Sound engine started
+[21:50:05] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[21:50:05] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[21:50:05] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[21:50:05] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[21:50:05] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[21:50:05] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[21:50:05] [Render thread/INFO]: Created: 64x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[21:50:05] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[21:50:05] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[21:50:06] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[21:50:06] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[21:50:06] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[21:50:06] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[21:50:45] [Render thread/INFO]: Deleting level New World
+[21:50:45] [Render thread/INFO]: Attempt 1...
+[21:50:46] [Render thread/INFO]: Registering commands with com.sk89q.worldedit.fabric.FabricPlatform
+[21:50:46] [Render thread/INFO]: Loaded 7 recipes
+[21:50:47] [Render thread/INFO]: Loaded 1179 advancements
+[21:52:17] [Render thread/INFO]: Loaded 7 recipes
+[21:52:17] [Render thread/INFO]: Loaded 1179 advancements
+[21:54:13] [Render thread/INFO]: Applied 31 biome modifications to 11 of 63 new biomes in 13.20 ms
+[21:54:13] [Server thread/INFO]: Starting integrated minecraft server version 1.19.4
+[21:54:13] [Server thread/INFO]: Generating keypair
+[21:54:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:54:19] [Render thread/INFO]: Preparing spawn area: 0%
+[21:54:19] [Render thread/INFO]: Preparing spawn area: 0%
+[21:54:19] [Render thread/INFO]: Preparing spawn area: 0%
+[21:54:19] [Render thread/INFO]: Preparing spawn area: 0%
+[21:54:20] [Render thread/INFO]: Preparing spawn area: 0%
+[21:54:20] [Render thread/INFO]: Preparing spawn area: 2%
+[21:54:21] [Render thread/INFO]: Preparing spawn area: 3%
+[21:54:21] [Render thread/INFO]: Preparing spawn area: 6%
+[21:54:22] [Render thread/INFO]: Preparing spawn area: 8%
+[21:54:22] [Render thread/INFO]: Preparing spawn area: 11%
+[21:54:23] [Render thread/INFO]: Preparing spawn area: 14%
+[21:54:23] [Render thread/INFO]: Preparing spawn area: 16%
+[21:54:24] [Render thread/INFO]: Preparing spawn area: 18%
+[21:54:24] [Render thread/INFO]: Preparing spawn area: 22%
+[21:54:25] [Render thread/INFO]: Preparing spawn area: 24%
+[21:54:25] [Render thread/INFO]: Preparing spawn area: 28%
+[21:54:26] [Render thread/INFO]: Preparing spawn area: 31%
+[21:54:26] [Render thread/INFO]: Preparing spawn area: 33%
+[21:54:27] [Render thread/INFO]: Preparing spawn area: 37%
+[21:54:27] [Render thread/INFO]: Preparing spawn area: 41%
+[21:54:28] [Render thread/INFO]: Preparing spawn area: 44%
+[21:54:28] [Render thread/INFO]: Preparing spawn area: 48%
+[21:54:29] [Render thread/INFO]: Preparing spawn area: 52%
+[21:54:29] [Render thread/INFO]: Preparing spawn area: 55%
+[21:54:30] [Render thread/INFO]: Preparing spawn area: 59%
+[21:54:30] [Render thread/INFO]: Preparing spawn area: 63%
+[21:54:31] [Render thread/INFO]: Preparing spawn area: 65%
+[21:54:31] [Render thread/INFO]: Preparing spawn area: 69%
+[21:54:32] [Render thread/INFO]: Preparing spawn area: 73%
+[21:54:32] [Render thread/INFO]: Preparing spawn area: 77%
+[21:54:33] [Render thread/INFO]: Preparing spawn area: 81%
+[21:54:33] [Render thread/INFO]: Preparing spawn area: 84%
+[21:54:34] [Render thread/INFO]: Preparing spawn area: 86%
+[21:54:34] [Render thread/INFO]: Preparing spawn area: 92%
+[21:54:35] [Render thread/INFO]: Preparing spawn area: 96%
+[21:54:35] [Render thread/INFO]: Time elapsed: 17284 ms
+[21:54:36] [Server thread/INFO]: Changing view distance to 9, from 10
+[21:54:36] [Server thread/INFO]: Changing simulation distance to 5, from 0
+[21:54:37] [Server thread/INFO]: ZYoltyX[local:E:94ad9c7a] logged in with entity id 214 at (3.5, 70.0, 4.5)
+[21:54:37] [Server thread/INFO]: ZYoltyX joined the game
+[21:54:38] [Render thread/INFO]: Loaded 2 advancements
+[21:55:08] [Server thread/INFO]: Saving and pausing game...
+[21:55:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:overworld
+[21:55:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:the_nether
+[21:55:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:the_end
+[22:03:46] [Render thread/INFO]: Loaded 25 advancements
+[22:03:46] [Render thread/INFO]: Loaded 47 advancements
+[22:04:09] [Render thread/INFO]: Loaded 54 advancements
+[22:04:34] [Server thread/INFO]: Saving and pausing game...
+[22:04:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:overworld
+[22:04:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:the_nether
+[22:04:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:the_end
+[22:04:35] [Server thread/INFO]: ZYoltyX lost connection: Disconnected
+[22:04:35] [Server thread/INFO]: ZYoltyX left the game
+[22:04:35] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[22:04:35] [Server thread/INFO]: Stopping server
+[22:04:35] [Server thread/INFO]: Saving players
+[22:04:35] [Server thread/INFO]: Saving worlds
+[22:04:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:overworld
+[22:04:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:the_nether
+[22:04:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:the_end
+[22:04:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (Experimento 2009): All chunks are saved
+[22:04:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:04:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:04:37] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:04:43] [Render thread/INFO]: Deleting level Experimento 2009
+[22:04:43] [Render thread/INFO]: Attempt 1...
+[22:04:43] [Render thread/INFO]: Loaded 7 recipes
+[22:04:43] [Render thread/INFO]: Loaded 1179 advancements
+[22:05:01] [Render thread/INFO]: Loaded 7 recipes
+[22:05:01] [Render thread/INFO]: Loaded 1179 advancements
+[22:05:30] [Render thread/INFO]: Applied 31 biome modifications to 11 of 63 new biomes in 576.9 ?s
+[22:05:30] [Server thread/INFO]: Starting integrated minecraft server version 1.19.4
+[22:05:30] [Server thread/INFO]: Generating keypair
+[22:05:32] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:05:33] [Render thread/INFO]: Preparing spawn area: 0%
+[22:05:33] [Render thread/INFO]: Preparing spawn area: 0%
+[22:05:33] [Render thread/INFO]: Preparing spawn area: 1%
+[22:05:34] [Render thread/INFO]: Preparing spawn area: 3%
+[22:05:34] [Render thread/INFO]: Preparing spawn area: 5%
+[22:05:35] [Render thread/INFO]: Preparing spawn area: 9%
+[22:05:35] [Render thread/INFO]: Preparing spawn area: 12%
+[22:05:36] [Render thread/INFO]: Preparing spawn area: 16%
+[22:05:36] [Render thread/INFO]: Preparing spawn area: 19%
+[22:05:37] [Render thread/INFO]: Preparing spawn area: 24%
+[22:05:37] [Render thread/INFO]: Preparing spawn area: 27%
+[22:05:38] [Render thread/INFO]: Preparing spawn area: 33%
+[22:05:38] [Render thread/INFO]: Preparing spawn area: 35%
+[22:05:39] [Render thread/INFO]: Preparing spawn area: 41%
+[22:05:40] [Render thread/INFO]: Preparing spawn area: 43%
+[22:05:40] [Render thread/INFO]: Preparing spawn area: 45%
+[22:05:41] [Render thread/INFO]: Preparing spawn area: 49%
+[22:05:41] [Render thread/INFO]: Preparing spawn area: 52%
+[22:05:42] [Render thread/INFO]: Preparing spawn area: 55%
+[22:05:42] [Render thread/INFO]: Preparing spawn area: 58%
+[22:05:42] [Render thread/INFO]: Preparing spawn area: 62%
+[22:05:43] [Render thread/INFO]: Preparing spawn area: 66%
+[22:05:43] [Render thread/INFO]: Preparing spawn area: 69%
+[22:05:44] [Render thread/INFO]: Preparing spawn area: 72%
+[22:05:45] [Render thread/INFO]: Preparing spawn area: 75%
+[22:05:45] [Render thread/INFO]: Preparing spawn area: 82%
+[22:05:46] [Render thread/INFO]: Preparing spawn area: 84%
+[22:05:46] [Render thread/INFO]: Preparing spawn area: 88%
+[22:05:46] [Render thread/INFO]: Preparing spawn area: 93%
+[22:05:47] [Render thread/INFO]: Preparing spawn area: 98%
+[22:05:47] [Render thread/INFO]: Time elapsed: 14561 ms
+[22:05:47] [Server thread/INFO]: Changing view distance to 9, from 10
+[22:05:47] [Server thread/INFO]: Changing simulation distance to 5, from 0
+[22:05:47] [Server thread/INFO]: ZYoltyX[local:E:6283f4a1] logged in with entity id 1417 at (-1.5, 69.0, -6.5)
+[22:05:47] [Server thread/INFO]: ZYoltyX joined the game
+[22:05:47] [Render thread/INFO]: Loaded 2 advancements
+[22:05:48] [Server thread/INFO]: Saving and pausing game...
+[22:05:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:overworld
+[22:05:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:the_nether
+[22:05:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:the_end
+[22:06:05] [Server thread/INFO]: Saving and pausing game...
+[22:06:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:overworld
+[22:06:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:the_nether
+[22:06:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:the_end
+[22:06:56] [Render thread/INFO]: Loaded 9 advancements
+[22:07:01] [Server thread/INFO]: [ZYoltyX: Set own game mode to Creative Mode]
+[22:07:01] [Render thread/INFO]: [System] [CHAT] Set own game mode to Creative Mode
+[22:07:07] [Render thread/INFO]: Loaded 32 advancements
+[22:07:08] [Render thread/INFO]: Loaded 54 advancements
+[22:07:21] [Render thread/INFO]: Loaded 56 advancements
+[22:07:47] [Render thread/INFO]: Loaded 56 advancements
+[22:07:49] [Render thread/INFO]: Loaded 58 advancements
+[22:07:50] [Render thread/WARN]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
+[22:08:29] [Server thread/INFO]: [ZYoltyX: Set the world border to 200.0 block(s) wide]
+[22:08:29] [Render thread/INFO]: [System] [CHAT] Set the world border to 200.0 block(s) wide
+[22:08:32] [Server thread/INFO]: [ZYoltyX: Set the world border to 2000.0 block(s) wide]
+[22:08:32] [Render thread/INFO]: [System] [CHAT] Set the world border to 2000.0 block(s) wide
+[22:08:35] [Server thread/INFO]: [ZYoltyX: Set the world border to 400.0 block(s) wide]
+[22:08:35] [Render thread/INFO]: [System] [CHAT] Set the world border to 400.0 block(s) wide
+[22:08:43] [Render thread/INFO]: Loaded 58 advancements
+[22:08:52] [Server thread/INFO]: [ZYoltyX: Set the world border to 2000.0 block(s) wide]
+[22:08:52] [Render thread/INFO]: [System] [CHAT] Set the world border to 2000.0 block(s) wide
+[22:09:09] [Server thread/INFO]: ZYoltyX has made the advancement [Ice Bucket Challenge]
+[22:09:09] [Render thread/INFO]: [System] [CHAT] ZYoltyX has made the advancement [Ice Bucket Challenge]
+[22:09:09] [Render thread/INFO]: Loaded 69 advancements
+[22:09:22] [Render thread/INFO]: Loaded 72 advancements
+[22:09:25] [Render thread/INFO]: Loaded 73 advancements
+[22:10:24] [Render thread/INFO]: Loaded 73 advancements
+[22:10:43] [Server thread/INFO]: Saving and pausing game...
+[22:10:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:overworld
+[22:10:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:the_nether
+[22:10:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:the_end
+[22:11:07] [Render thread/INFO]: Loaded 73 advancements
+[22:11:43] [Render thread/INFO]: [System] [CHAT] Nothing changed. The world border is already that size
+[22:12:26] [Server thread/INFO]: ZYoltyX has made the advancement [Acquire Hardware]
+[22:12:26] [Render thread/INFO]: [System] [CHAT] ZYoltyX has made the advancement [Acquire Hardware]
+[22:12:26] [Render thread/INFO]: Loaded 99 advancements
+[22:12:50] [Render thread/INFO]: Loaded 108 advancements
+[22:13:24] [Render thread/INFO]: Loaded 108 advancements
+[22:13:26] [Render thread/INFO]: Loaded 108 advancements
+[22:13:32] [Render thread/INFO]: Loaded 111 advancements
+[22:13:52] [Render thread/INFO]: Loaded 115 advancements
+[22:14:58] [Server thread/INFO]: Saving and pausing game...
+[22:14:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:overworld
+[22:14:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:the_nether
+[22:14:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:the_end
+[22:15:29] [Render thread/INFO]: Loaded 115 advancements
+[22:15:37] [Render thread/INFO]: Loaded 115 advancements
+[22:15:41] [Render thread/INFO]: Loaded 115 advancements
+[22:15:45] [Render thread/INFO]: [System] [CHAT] First position set to (-709, 63, 969).
+[22:15:46] [Server thread/INFO]: Saving and pausing game...
+[22:15:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:overworld
+[22:15:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:the_nether
+[22:15:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:the_end
+[22:16:08] [Server thread/INFO]: ZYoltyX has completed the challenge [Cover Me in Debris]
+[22:16:08] [Render thread/INFO]: [System] [CHAT] ZYoltyX has completed the challenge [Cover Me in Debris]
+[22:16:08] [Render thread/INFO]: Loaded 118 advancements
+[22:17:17] [Render thread/INFO]: Loaded 118 advancements
+[22:17:28] [Server thread/INFO]: Saving and pausing game...
+[22:17:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:overworld
+[22:17:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:the_nether
+[22:17:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:the_end
+[22:17:29] [Server thread/INFO]: ZYoltyX lost connection: Disconnected
+[22:17:29] [Server thread/INFO]: ZYoltyX left the game
+[22:17:29] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[22:17:29] [Server thread/INFO]: Stopping server
+[22:17:29] [Server thread/INFO]: Saving players
+[22:17:29] [Server thread/INFO]: Saving worlds
+[22:17:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:overworld
+[22:17:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:the_nether
+[22:17:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:the_end
+[22:17:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (Experimento 2009): All chunks are saved
+[22:17:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:17:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:17:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:17:41] [Render thread/INFO]: Deleting level Experimento 2009
+[22:17:41] [Render thread/INFO]: Attempt 1...
+[22:17:41] [Render thread/INFO]: Loaded 7 recipes
+[22:17:41] [Render thread/INFO]: Loaded 1179 advancements
+[22:17:43] [Render thread/INFO]: Loaded 7 recipes
+[22:17:43] [Render thread/INFO]: Loaded 1179 advancements
+[22:17:52] [Render thread/INFO]: Applied 31 biome modifications to 11 of 63 new biomes in 555.5 ?s
+[22:17:52] [Server thread/INFO]: Starting integrated minecraft server version 1.19.4
+[22:17:52] [Server thread/INFO]: Generating keypair
+[22:17:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:17:54] [Render thread/INFO]: Preparing spawn area: 0%
+[22:17:54] [Render thread/INFO]: Preparing spawn area: 0%
+[22:17:55] [Render thread/INFO]: Preparing spawn area: 1%
+[22:17:55] [Render thread/INFO]: Preparing spawn area: 3%
+[22:17:56] [Render thread/INFO]: Preparing spawn area: 6%
+[22:17:56] [Render thread/INFO]: Preparing spawn area: 9%
+[22:17:57] [Render thread/INFO]: Preparing spawn area: 13%
+[22:17:57] [Render thread/INFO]: Preparing spawn area: 17%
+[22:17:58] [Render thread/INFO]: Preparing spawn area: 21%
+[22:17:58] [Render thread/INFO]: Preparing spawn area: 24%
+[22:17:59] [Render thread/INFO]: Preparing spawn area: 29%
+[22:17:59] [Render thread/INFO]: Preparing spawn area: 33%
+[22:18:00] [Render thread/INFO]: Preparing spawn area: 37%
+[22:18:00] [Render thread/INFO]: Preparing spawn area: 43%
+[22:18:01] [Render thread/INFO]: Preparing spawn area: 47%
+[22:18:01] [Render thread/INFO]: Preparing spawn area: 53%
+[22:18:02] [Render thread/INFO]: Preparing spawn area: 57%
+[22:18:02] [Render thread/INFO]: Preparing spawn area: 61%
+[22:18:03] [Render thread/INFO]: Preparing spawn area: 66%
+[22:18:03] [Render thread/INFO]: Preparing spawn area: 71%
+[22:18:04] [Render thread/INFO]: Preparing spawn area: 75%
+[22:18:04] [Render thread/INFO]: Preparing spawn area: 82%
+[22:18:05] [Render thread/INFO]: Preparing spawn area: 85%
+[22:18:05] [Render thread/INFO]: Preparing spawn area: 90%
+[22:18:06] [Render thread/INFO]: Preparing spawn area: 95%
+[22:18:06] [Render thread/INFO]: Time elapsed: 12304 ms
+[22:18:06] [Server thread/INFO]: Changing view distance to 9, from 10
+[22:18:06] [Server thread/INFO]: Changing simulation distance to 5, from 0
+[22:18:06] [Server thread/INFO]: ZYoltyX[local:E:d75623ab] logged in with entity id 8809 at (-27.5, 72.0, -31.5)
+[22:18:06] [Server thread/INFO]: ZYoltyX joined the game
+[22:18:06] [Render thread/INFO]: Loaded 2 advancements
+[22:18:29] [Server thread/INFO]: Saving and pausing game...
+[22:18:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:overworld
+[22:18:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:the_nether
+[22:18:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:the_end
+[22:18:30] [Server thread/INFO]: ZYoltyX lost connection: Disconnected
+[22:18:30] [Server thread/INFO]: ZYoltyX left the game
+[22:18:30] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[22:18:30] [Server thread/INFO]: Stopping server
+[22:18:30] [Server thread/INFO]: Saving players
+[22:18:30] [Server thread/INFO]: Saving worlds
+[22:18:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:overworld
+[22:18:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:the_nether
+[22:18:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:the_end
+[22:18:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (Experimento 2009): All chunks are saved
+[22:18:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:18:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:18:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:18:35] [Render thread/INFO]: Deleting level Experimento 2009
+[22:18:35] [Render thread/INFO]: Attempt 1...
+[22:18:35] [Render thread/INFO]: Loaded 7 recipes
+[22:18:35] [Render thread/INFO]: Loaded 1179 advancements
+[22:18:37] [Render thread/INFO]: Loaded 7 recipes
+[22:18:37] [Render thread/INFO]: Loaded 1179 advancements
+[22:18:59] [Render thread/INFO]: Applied 31 biome modifications to 11 of 63 new biomes in 509.1 ?s
+[22:18:59] [Server thread/INFO]: Starting integrated minecraft server version 1.19.4
+[22:18:59] [Server thread/INFO]: Generating keypair
+[22:19:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:19:01] [Render thread/INFO]: Preparing spawn area: 0%
+[22:19:01] [Render thread/INFO]: Preparing spawn area: 0%
+[22:19:01] [Render thread/INFO]: Preparing spawn area: 1%
+[22:19:02] [Render thread/INFO]: Preparing spawn area: 3%
+[22:19:02] [Render thread/INFO]: Preparing spawn area: 6%
+[22:19:03] [Render thread/INFO]: Preparing spawn area: 9%
+[22:19:03] [Render thread/INFO]: Preparing spawn area: 12%
+[22:19:04] [Render thread/INFO]: Preparing spawn area: 16%
+[22:19:04] [Render thread/INFO]: Preparing spawn area: 19%
+[22:19:05] [Render thread/INFO]: Preparing spawn area: 24%
+[22:19:05] [Render thread/INFO]: Preparing spawn area: 27%
+[22:19:06] [Render thread/INFO]: Preparing spawn area: 32%
+[22:19:06] [Render thread/INFO]: Preparing spawn area: 36%
+[22:19:07] [Render thread/INFO]: Preparing spawn area: 40%
+[22:19:07] [Render thread/INFO]: Preparing spawn area: 44%
+[22:19:08] [Render thread/INFO]: Preparing spawn area: 48%
+[22:19:08] [Render thread/INFO]: Preparing spawn area: 52%
+[22:19:09] [Render thread/INFO]: Preparing spawn area: 57%
+[22:19:09] [Render thread/INFO]: Preparing spawn area: 60%
+[22:19:10] [Render thread/INFO]: Preparing spawn area: 65%
+[22:19:10] [Render thread/INFO]: Preparing spawn area: 69%
+[22:19:11] [Render thread/INFO]: Preparing spawn area: 73%
+[22:19:11] [Render thread/INFO]: Preparing spawn area: 78%
+[22:19:12] [Render thread/INFO]: Preparing spawn area: 83%
+[22:19:12] [Render thread/INFO]: Preparing spawn area: 87%
+[22:19:13] [Render thread/INFO]: Preparing spawn area: 92%
+[22:19:13] [Render thread/INFO]: Preparing spawn area: 97%
+[22:19:13] [Render thread/INFO]: Time elapsed: 13217 ms
+[22:19:14] [Server thread/INFO]: Changing view distance to 9, from 10
+[22:19:14] [Server thread/INFO]: Changing simulation distance to 5, from 0
+[22:19:14] [Server thread/INFO]: ZYoltyX[local:E:4ef26f0d] logged in with entity id 9559 at (57.5, 70.0, -1.5)
+[22:19:14] [Server thread/INFO]: ZYoltyX joined the game
+[22:19:14] [Render thread/INFO]: Loaded 2 advancements
+[22:19:15] [Server thread/INFO]: Saving and pausing game...
+[22:19:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:overworld
+[22:19:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:the_nether
+[22:19:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:the_end
+[22:19:37] [Render thread/INFO]: Loaded 9 advancements
+[22:20:04] [Render thread/INFO]: Loaded 32 advancements
+[22:20:04] [Render thread/INFO]: Loaded 35 advancements
+[22:20:13] [Server thread/INFO]: Saving and pausing game...
+[22:20:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:overworld
+[22:20:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:the_nether
+[22:20:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:the_end
+[22:20:14] [Server thread/INFO]: ZYoltyX lost connection: Disconnected
+[22:20:14] [Server thread/INFO]: ZYoltyX left the game
+[22:20:14] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[22:20:14] [Server thread/INFO]: Stopping server
+[22:20:14] [Server thread/INFO]: Saving players
+[22:20:14] [Server thread/INFO]: Saving worlds
+[22:20:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:overworld
+[22:20:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:the_nether
+[22:20:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 2009]'/minecraft:the_end
+[22:20:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (Experimento 2009): All chunks are saved
+[22:20:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:20:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:20:15] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:20:20] [Render thread/INFO]: Deleting level Experimento 2009
+[22:20:20] [Render thread/INFO]: Attempt 1...
+[22:20:20] [Render thread/INFO]: Loaded 7 recipes
+[22:20:20] [Render thread/INFO]: Loaded 1179 advancements
+[22:20:22] [Render thread/INFO]: Loaded 7 recipes
+[22:20:22] [Render thread/INFO]: Loaded 1179 advancements
+[22:20:35] [Render thread/INFO]: Applied 31 biome modifications to 11 of 63 new biomes in 1.221 ms
+[22:20:35] [Server thread/INFO]: Starting integrated minecraft server version 1.19.4
+[22:20:35] [Server thread/INFO]: Generating keypair
+[22:20:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:20:37] [Render thread/INFO]: Preparing spawn area: 0%
+[22:20:37] [Render thread/INFO]: Preparing spawn area: 0%
+[22:20:38] [Render thread/INFO]: Preparing spawn area: 0%
+[22:20:38] [Render thread/INFO]: Preparing spawn area: 1%
+[22:20:39] [Render thread/INFO]: Preparing spawn area: 3%
+[22:20:39] [Render thread/INFO]: Preparing spawn area: 5%
+[22:20:40] [Render thread/INFO]: Preparing spawn area: 7%
+[22:20:40] [Render thread/INFO]: Preparing spawn area: 9%
+[22:20:41] [Render thread/INFO]: Preparing spawn area: 11%
+[22:20:41] [Render thread/INFO]: Preparing spawn area: 14%
+[22:20:42] [Render thread/INFO]: Preparing spawn area: 15%
+[22:20:42] [Render thread/INFO]: Preparing spawn area: 19%
+[22:20:43] [Render thread/INFO]: Preparing spawn area: 21%
+[22:20:43] [Render thread/INFO]: Preparing spawn area: 23%
+[22:20:44] [Render thread/INFO]: Preparing spawn area: 26%
+[22:20:44] [Render thread/INFO]: Preparing spawn area: 29%
+[22:20:45] [Render thread/INFO]: Preparing spawn area: 31%
+[22:20:45] [Render thread/INFO]: Preparing spawn area: 34%
+[22:20:46] [Render thread/INFO]: Preparing spawn area: 36%
+[22:20:46] [Render thread/INFO]: Preparing spawn area: 41%
+[22:20:47] [Render thread/INFO]: Preparing spawn area: 43%
+[22:20:47] [Render thread/INFO]: Preparing spawn area: 45%
+[22:20:48] [Render thread/INFO]: Preparing spawn area: 48%
+[22:20:48] [Render thread/INFO]: Preparing spawn area: 51%
+[22:20:49] [Render thread/INFO]: Preparing spawn area: 55%
+[22:20:49] [Render thread/INFO]: Preparing spawn area: 57%
+[22:20:50] [Render thread/INFO]: Preparing spawn area: 60%
+[22:20:50] [Render thread/INFO]: Preparing spawn area: 63%
+[22:20:51] [Render thread/INFO]: Preparing spawn area: 67%
+[22:20:51] [Render thread/INFO]: Preparing spawn area: 70%
+[22:20:52] [Render thread/INFO]: Preparing spawn area: 73%
+[22:20:52] [Render thread/INFO]: Preparing spawn area: 76%
+[22:20:53] [Render thread/INFO]: Preparing spawn area: 79%
+[22:20:53] [Render thread/INFO]: Preparing spawn area: 83%
+[22:20:54] [Render thread/INFO]: Preparing spawn area: 86%
+[22:20:54] [Render thread/INFO]: Preparing spawn area: 89%
+[22:20:55] [Render thread/INFO]: Preparing spawn area: 91%
+[22:20:55] [Render thread/INFO]: Preparing spawn area: 94%
+[22:20:56] [Render thread/INFO]: Time elapsed: 18925 ms
+[22:20:56] [Server thread/INFO]: Changing view distance to 9, from 10
+[22:20:56] [Server thread/INFO]: Changing simulation distance to 5, from 0
+[22:20:56] [Server thread/INFO]: ZYoltyX[local:E:0f9df9b0] logged in with entity id 10968 at (5.5, 138.0, -7.5)
+[22:20:56] [Server thread/INFO]: ZYoltyX joined the game
+[22:20:56] [Render thread/INFO]: Loaded 2 advancements
+[22:21:18] [Server thread/INFO]: Saving and pausing game...
+[22:21:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 9002]'/minecraft:overworld
+[22:21:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 9002]'/minecraft:the_nether
+[22:21:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 9002]'/minecraft:the_end
+[22:21:19] [Server thread/INFO]: ZYoltyX lost connection: Disconnected
+[22:21:19] [Server thread/INFO]: ZYoltyX left the game
+[22:21:19] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[22:21:19] [Server thread/INFO]: Stopping server
+[22:21:19] [Server thread/INFO]: Saving players
+[22:21:19] [Server thread/INFO]: Saving worlds
+[22:21:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 9002]'/minecraft:overworld
+[22:21:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 9002]'/minecraft:the_nether
+[22:21:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Experimento 9002]'/minecraft:the_end
+[22:21:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (Experimento 9002): All chunks are saved
+[22:21:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:21:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:21:20] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:21:25] [Render thread/INFO]: Stopping!
